@@ -1,7 +1,7 @@
 # Detecção de Comunidades em Redes
 
 ## 1. Descrição
-Este projeto implementa o algoritmo Label Propagation para detecção de comunidades em grafos não direcionados e não ponderados.
+Este projeto implementa o algoritmo Label Propagation para detecção de comunidades em grafos não direcionados e não ponderados, como atividade da disciplina de Tecnologias para Data Science
 
 O algoritmo recebe uma rede via arquivo CSV contendo as arestas do grafo, identifica as labels dos vértices, as remapeia e associa a inteiros contíguos de 0 a N. Em seguida, a partir de ordens distintas de visitação, percorre o grafo modificando (ou não) a label de cada vértice para a moda das labels de seus vizinhos. Ao final, os vértices com mesma label são considerados de uma mesma comunidade.
 
